@@ -89,5 +89,6 @@
         public string FP18 { get; set; }
         public string MyRank { get; set; }
         public string MyPosRank { get; set; }
+        public string RunApproach { get; set; }
     }
 }

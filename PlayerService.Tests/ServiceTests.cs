@@ -179,5 +179,13 @@ namespace PlayerService.Tests
             Assert.AreEqual("3", p?.MyPosRank);
             Console.WriteLine(p?.MyPosRank);
         }
+
+        [TestMethod]
+        public void PlayerService_CanReadRunApproach()
+        {
+            var p = _cut?.GetById("RODGAA01");
+            Assert.AreEqual("Ace", p?.RunApproach);
+            Console.WriteLine(p?.RunApproach);
+        }
     }
 }

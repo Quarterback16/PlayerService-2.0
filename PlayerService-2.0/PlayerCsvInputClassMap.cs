@@ -93,6 +93,7 @@ namespace PlayerService_2._0
             Map(p => p.FP18);
             Map(p => p.MyRank);
             Map(p => p.MyPosRank);
+            Map(p => p.RunApproach);
         }
     }
 }
