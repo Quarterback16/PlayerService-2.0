@@ -13,7 +13,7 @@ namespace PlayerService_2._0
         public List<NflPlayerState> Players { get; set; }
 
         public NflPlayerService(
-            string csvFile = "d:\\dropbox\\csv\\Starters-PlayerCsv.csv")
+            string csvFile = "d:\\dropbox\\csv\\PlayerCsv-2024.csv")
         {
             Players = ReadCsv(csvFile);
         }
