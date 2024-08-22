@@ -30,12 +30,27 @@
         public string YDr { get; set; }
         public string YDc { get; set; }
         public string FG { get; set; }
+        public string Pat { get; set; }
+        public string Rushes { get; set; }
+        public string Completed { get; set; }
+        public string PassAtts { get; set; }
+        public string PassInt { get; set; }
+        public string Catches { get; set; }
+        public string Ints { get; set; }
+        public string Sacks { get; set; }
+        public string ProjYDp { get; set; }
+        public string ProjTDp { get; set; }
+        public string ProjYDr { get; set; }
+        public string ProjTDr { get; set; }
+        public string ProjYDc { get; set; }
+        public string ProjTDc { get; set; }
+        public string ProjFG { get; set; }
+        public string ProjPat { get; set; }
+        public string ProjFp { get; set; }
         public string Health { get; set; }
         public string Newbie { get; set; }
         public string AdjProj { get; set; }
         public string AgeRate { get; set; }
-        public string Points { get; set; }
-        public string Adp { get; set; }
         public string ProjW01 { get; set; }
         public string ProjW02 { get; set; }
         public string ProjW03 { get; set; }
@@ -68,6 +83,9 @@
         public string GS1 { get; set; }
         public string YH { get; set; }
         public string Game1Proj { get; set; }
+        public string Playoffs { get; set; }
+        public string Points { get; set; }
+        public string Adp { get; set; }
 
         public string FP01 { get; set; }
         public string FP02 { get; set; }
