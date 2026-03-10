@@ -13,7 +13,7 @@ namespace PlayerService_2._0
         public List<NflPlayerState> Players { get; set; }
 
         public NflPlayerService(
-            string csvFile = "d:\\dropbox\\csv\\PlayerCsv-2024.csv")
+            string csvFile = "d:/dropbox/csv/PlayerCsv-2026.csv")
         {
             Players = ReadCsv(csvFile);
         }
@@ -29,7 +29,8 @@ namespace PlayerService_2._0
             var retval = new List<NflPlayerState>();
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                HasHeaderRecord = true
+                HasHeaderRecord = true,
+                HeaderValidated = null,
             };
             var classMap = new PlayerCsvInputClassMap2();
 
