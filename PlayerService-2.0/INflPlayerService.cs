@@ -7,6 +7,8 @@ namespace PlayerService_2._0
     {
         NflPlayerState GetById(string id);
 
+        NflPlayerState GetByName(string playerName);
+
         List<NflPlayerState> GetAll();
 
         List<NflPlayerState> Search(

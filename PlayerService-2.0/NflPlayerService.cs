@@ -60,5 +60,12 @@ namespace PlayerService_2._0
                 .OrderBy(x => x)
                 .ToList();
         }
+
+        public NflPlayerState GetByName(string playerName) =>
+        
+            Search(
+                (NflPlayerState p) => p.Name == playerName)
+                    .FirstOrDefault();
+        
     }
 }
