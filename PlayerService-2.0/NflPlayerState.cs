@@ -87,6 +87,8 @@
         public string Points { get; set; }
         public string Adp { get; set; }
 
+        public string PosAdp { get; set; }
+
         public string FP01 { get; set; }
         public string FP02 { get; set; }
         public string FP03 { get; set; }

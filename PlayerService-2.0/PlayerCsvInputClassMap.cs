@@ -91,6 +91,7 @@ namespace PlayerService_2._0
             Map(p => p.Game1Proj);
             Map(p => p.Points);
             Map(p => p.Adp);
+            Map(p => p.PosAdp);
             Map(p => p.FP01);
             Map(p => p.FP02);
             Map(p => p.FP03);
