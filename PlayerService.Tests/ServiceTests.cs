@@ -212,7 +212,7 @@ namespace PlayerService.Tests
         public void PlayerService_CanReadPosAdpRank()
         {
             var cut = new NflPlayerService(
-                "d:/dropbox/csv/PlayerCsv-2025.csv");
+                "d:/dropbox/csv/PlayerCsv-2026.csv");
             var p = cut?.GetById("ADAMDA01");
             Assert.AreEqual("18", p?.PosAdp);
             Console.WriteLine(p?.PosAdp);

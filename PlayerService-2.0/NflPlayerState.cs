@@ -5,12 +5,17 @@
         public string ID { get; set; }
         public string Name { get; set; }
         public string JerseyNo { get; set; }
+        public string College { get; set; }
         public string Pos { get; set; }
         public string Role { get; set; }
         public string RookieYr { get; set; }
-        public string College { get; set; }
         public string Age { get; set; }
         public string CurrTeam { get; set; }
+
+        public string Opponent { get; set; }
+        public string Spread { get; set; }
+        public string OppRate { get; set; }
+
         public string FT { get; set; }
         public string Cat { get; set; }
         public string ScoreMod { get; set; }
@@ -18,9 +23,9 @@
         public string NewTeam { get; set; }
         public string CurScores { get; set; }
         public string Scores { get; set; }
-        public string Avg { get; set; }
         public string ScoreForm { get; set; }
         public string NextOpp { get; set; }
+        public string Avg { get; set; }
         public string Injury { get; set; }
         public string TDp { get; set; }
         public string YDp { get; set; }
@@ -47,8 +52,11 @@
         public string ProjFG { get; set; }
         public string ProjPat { get; set; }
         public string ProjFp { get; set; }
+
+        public string CurrDooz { get; set; }
+
         public string Health { get; set; }
-        public string Newbie { get; set; }
+        public string newbie { get; set; }
         public string AdjProj { get; set; }
         public string AgeRate { get; set; }
         public string ProjW01 { get; set; }
@@ -73,7 +81,7 @@
         public string ProjQ2 { get; set; }
         public string ProjQ3 { get; set; }
         public string ProjQ4 { get; set; }
-        public string CurrDooz { get; set; }
+        
         public string PrevDooz0 { get; set; }
         public string PrevDooz1 { get; set; }
         public string PrevDooz2 { get; set; }
@@ -82,12 +90,6 @@
         public string Note { get; set; }
         public string GS1 { get; set; }
         public string YH { get; set; }
-        public string Game1Proj { get; set; }
-        public string Playoffs { get; set; }
-        public string Points { get; set; }
-        public string Adp { get; set; }
-
-        public string PosAdp { get; set; }
 
         public string FP01 { get; set; }
         public string FP02 { get; set; }
@@ -107,6 +109,19 @@
         public string FP16 { get; set; }
         public string FP17 { get; set; }
         public string FP18 { get; set; }
+        public string Low { get; set; }
+        public string AvgFp { get; set; }
+        public string Hi { get; set; }
+        public string Total { get; set; }
+        public string Games { get; set; }
+
+        public string Game1Proj { get; set; }
+        public string Playoffs { get; set; }
+        public string Points { get; set; }
+        public string Adp { get; set; }
+
+        public string PosAdp { get; set; }
+
         public string MyRank { get; set; }
         public string MyPosRank { get; set; }
         public string RunApproach { get; set; }

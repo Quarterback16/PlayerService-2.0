@@ -12,12 +12,17 @@ namespace PlayerService_2._0
             Map(p => p.ID);
             Map(p => p.Name);
             Map(p => p.JerseyNo);
+            Map(p => p.College);
             Map(p => p.Pos);
             Map(p => p.Role);
             Map(p => p.RookieYr);
-            Map(p => p.College);
             Map(p => p.Age);
             Map(p => p.CurrTeam);
+
+            Map(p => p.Opponent);
+            Map(p => p.Spread);
+            Map(p => p.OppRate);
+
             Map(p => p.FT);
             Map(p => p.Cat);
             Map(p => p.ScoreMod);
@@ -25,9 +30,11 @@ namespace PlayerService_2._0
             Map(p => p.NewTeam);
             Map(p => p.CurScores);
             Map(p => p.Scores);
-            Map(p => p.Avg);
+
             Map(p => p.ScoreForm);
             Map(p => p.NextOpp);
+
+            Map(p => p.Avg);
             Map(p => p.Injury);
             Map(p => p.TDp);
             Map(p => p.YDp);
@@ -53,10 +60,14 @@ namespace PlayerService_2._0
             Map(p => p.ProjFG);
             Map(p => p.ProjPat);
             Map(p => p.ProjFp);
+
+            Map(p => p.CurrDooz);
+
             Map(p => p.Health);
-            Map(p => p.Newbie);
+            Map(p => p.newbie);
             Map(p => p.AdjProj);
             Map(p => p.AgeRate);
+
             Map(p => p.ProjW01);
             Map(p => p.ProjW02);
             Map(p => p.ProjW03);
@@ -72,26 +83,24 @@ namespace PlayerService_2._0
             Map(p => p.ProjW13);
             Map(p => p.ProjW14);
             Map(p => p.ProjW15);
-            Map(p => p.ProjW15);
             Map(p => p.ProjW16);
             Map(p => p.ProjW17);
             Map(p => p.ProjW18);
+
             Map(p => p.ProjQ1);
             Map(p => p.ProjQ2);
             Map(p => p.ProjQ3);
             Map(p => p.ProjQ4);
-            Map(p => p.CurrDooz);
+
             Map(p => p.PrevDooz0);
             Map(p => p.PrevDooz1);
             Map(p => p.PrevDooz2);
+
             Map(p => p.ContractYr);
             Map(p => p.Note);
             Map(p => p.GS1);
             Map(p => p.YH);
-            Map(p => p.Game1Proj);
-            Map(p => p.Points);
-            Map(p => p.Adp);
-            Map(p => p.PosAdp);
+
             Map(p => p.FP01);
             Map(p => p.FP02);
             Map(p => p.FP03);
@@ -111,6 +120,20 @@ namespace PlayerService_2._0
             Map(p => p.FP16);
             Map(p => p.FP17);
             Map(p => p.FP18);
+
+            Map(p => p.Low);
+            Map(p => p.AvgFp);
+            Map(p => p.Hi);
+            Map(p => p.Total);
+            Map(p => p.Games);
+
+            Map(p => p.Game1Proj);
+            Map(p => p.Playoffs);
+            Map(p => p.Points);
+
+            Map(p => p.Adp);
+            Map(p => p.PosAdp);
+
             Map(p => p.MyRank);
             Map(p => p.MyPosRank);
             Map(p => p.RunApproach);
