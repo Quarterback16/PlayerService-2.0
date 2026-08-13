@@ -64,7 +64,7 @@ namespace PlayerService_2._0
             Map(p => p.CurrDooz);
 
             Map(p => p.Health);
-            Map(p => p.newbie);
+            Map(p => p.newbie).Optional();
             Map(p => p.AdjProj);
             Map(p => p.AgeRate);
 
